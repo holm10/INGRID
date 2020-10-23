@@ -299,7 +299,9 @@ We will explore one more useful feature the user can control during grid generat
 Reducing cell shearing with ``distortion_correction``
 =====================================================
 
-INGRID does not enforce an orthogonality condition when generating a grid. Non-orthogonal grids in INGRID allow for generation of grids that conform entirely to plate/limiter geometry. Although non-orthogonal grids can generate some cell shearing/distortion in certain cases (see figures below), INGRID allows the user to mitigate these effects with the ``distortion_correction`` feature. 
+INGRID does not enforce an orthogonality condition when generating a grid. Non-orthogonal grids in INGRID allow for generation of grids that conform entirely to plate/limiter geometry. 
+
+Although non-orthogonal grids may generate cell shearing/distortion in certain cases (see figures below), INGRID allows the user to mitigate these effects with the ``distortion_correction`` feature. 
 
 Below is an example of cell shearing and ``distortion_correction`` activated.
 
