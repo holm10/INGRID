@@ -1,4 +1,32 @@
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 *.pyc
 .DS_Store
 data/.DS_Store
@@ -21,3 +49,7 @@ aholm_mar1719_7/original.h5
 aholm_mar1719_7/readtran_holm
 aholm_mar1719_7/tran
 *.swp
+
+# Sphinx documentation
+docs/_build/
+doc/_build/
